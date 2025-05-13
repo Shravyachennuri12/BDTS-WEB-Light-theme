@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="/lovable-uploads/8721a55e-b2dc-4fe2-9280-17a1f6d67863.png" 
+                src="/assets/bdts.png" 
                 alt="BDT Logo" 
                 className="h-12 mr-3"
               />
