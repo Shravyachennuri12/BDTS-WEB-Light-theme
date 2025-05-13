@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 z-10 text-center">
         <div className="flex flex-col items-center justify-center space-y-6">
           <img 
-            src="/lovable-uploads/8721a55e-b2dc-4fe2-9280-17a1f6d67863.png" 
+            src="/assets/bdts.png" 
             alt="BDT Logo" 
             className="w-36 md:w-48 lg:w-56 animate-float"
           />

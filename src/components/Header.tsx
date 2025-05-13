@@ -50,7 +50,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <div className="flex items-center">
           <img 
-            src="/lovable-uploads/8721a55e-b2dc-4fe2-9280-17a1f6d67863.png" 
+            src="/assets/bdts.png" 
             alt="BDT Logo" 
             className="h-12 md:h-14"
           />
