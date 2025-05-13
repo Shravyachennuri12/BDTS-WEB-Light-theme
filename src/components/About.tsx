@@ -13,7 +13,7 @@ const timelineData = [
     description: "Expanded our team and opened our first international office."
   },
   {
-    year: "20123",
+    year: "2023",
     title: "Major Milestones",
     description: "Reached 100+ enterprise clients and launched our flagship products."
   },
