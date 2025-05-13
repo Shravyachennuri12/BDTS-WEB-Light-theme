@@ -173,7 +173,7 @@ const Contact: React.FC = () => {
     src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d62211.44857783821!2d77.7409744!3d12.9580555!3m2!1i1024!2i768!4f13.1!2m1!1sbasel%20dynamics%20tech%20solutions!5e0!3m2!1sen!2sin!4v1747114798396!5m2!1sen!2sin"
     width="100%"
     height="100%"
-    allowFullScreen=""
+    // allowFullScreen=""
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
     className="w-full h-full border-0"
