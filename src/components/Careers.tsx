@@ -88,47 +88,163 @@ const Careers: React.FC = () => {
               At Basel Dynamics, we believe in creating an environment where innovation thrives and talent is nurtured. Join a team of passionate professionals working on cutting-edge technology projects.
             </p>
             
+
             <div className="space-y-4 mt-8">
-              <div className="flex items-start">
-                <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
-                  <Check className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold">Professional Growth</h4>
-                  <p className="text-gray-600">Continuous learning opportunities and career advancement paths</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
-                  <Check className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold">Work-Life Balance</h4>
-                  <p className="text-gray-600">Flexible work arrangements and respect for personal time</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
-                  <Check className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold">Inclusive Culture</h4>
-                  <p className="text-gray-600">Diverse and supportive environment where all voices are valued</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
-                  <Check className="w-5 h-5" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-semibold">Competitive Benefits</h4>
-                  <p className="text-gray-600">Health insurance, retirement plans, and performance bonuses</p>
-                </div>
-              </div>
-            </div>
+  {/* Existing Items */}
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Professional Growth</h4>
+      <p className="text-gray-600">Continuous learning opportunities and career advancement paths</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Work-Life Balance</h4>
+      <p className="text-gray-600">Flexible work arrangements and respect for personal time</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Inclusive Culture</h4>
+      <p className="text-gray-600">Diverse and supportive environment where all voices are valued</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Competitive Benefits</h4>
+      <p className="text-gray-600">Health insurance, retirement plans, and performance bonuses</p>
+    </div>
+  </div>
+
+  {/* Additional Items */}
+
+ <div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Transparent Communication</h4>
+    <p className="text-gray-600">Open-door policies and regular team updates to keep everyone aligned</p>
+  </div>
+</div>
+
+<div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Leadership Opportunities</h4>
+    <p className="text-gray-600">Take initiative and lead projects as you grow within the organization</p>
+  </div>
+</div>
+
+<div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Community Engagement</h4>
+    <p className="text-gray-600">Get involved in social impact programs and give back to the community</p>
+  </div>
+</div>
+
+<div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Hackathons & Challenges</h4>
+    <p className="text-gray-600">Participate in internal hackathons and win exciting rewards</p>
+  </div>
+</div>
+
+<div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Wellness Programs</h4>
+    <p className="text-gray-600">Mental health support, fitness initiatives, and well-being resources</p>
+  </div>
+</div>
+
+<div className="flex items-start">
+  <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+    <Check className="w-5 h-5" />
+  </div>
+  <div>
+    <h4 className="text-lg font-semibold">Referral Bonuses</h4>
+    <p className="text-gray-600">Earn rewards by referring talented professionals to join our team</p>
+  </div>
+</div>
+
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Collaborative Culture</h4>
+      <p className="text-gray-600">A team-first mindset that values open communication and teamwork</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Learning Opportunities</h4>
+      <p className="text-gray-600">Access to courses, mentorship, and workshops to upskill continuously</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Employee Recognition</h4>
+      <p className="text-gray-600">We celebrate your achievements and contributions regularly</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Modern Workspaces</h4>
+      <p className="text-gray-600">Creative and comfortable environments designed to inspire</p>
+    </div>
+  </div>
+
+  <div className="flex items-start">
+    <div className="p-2 bg-bdt-orange rounded-full text-white mr-4">
+      <Check className="w-5 h-5" />
+    </div>
+    <div>
+      <h4 className="text-lg font-semibold">Global Exposure</h4>
+      <p className="text-gray-600">Collaborate with international teams and expand your horizons</p>
+    </div>
+  </div>
+</div>
+
           </div>
           
           <div className="reveal" style={{ animationDelay: "0.2s" }}>

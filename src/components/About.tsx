@@ -3,22 +3,22 @@ import React, { useEffect } from 'react';
 
 const timelineData = [
   {
-    year: "2015",
+    year: "2021",
     title: "Company Founded",
     description: "Basel Dynamics was founded with a vision to deliver innovative tech solutions."
   },
   {
-    year: "2017",
+    year: "2022",
     title: "Growth & Expansion",
     description: "Expanded our team and opened our first international office."
   },
   {
-    year: "2019",
+    year: "20123",
     title: "Major Milestones",
     description: "Reached 100+ enterprise clients and launched our flagship products."
   },
   {
-    year: "2021",
+    year: "2024",
     title: "Innovation Awards",
     description: "Received multiple industry awards for technological innovation."
   },

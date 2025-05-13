@@ -42,8 +42,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="text-lg font-semibold">Our Office</h4>
                   <p className="text-gray-600">
-                    123 Tech Park, Electronics City<br />
-                    Bangalore, Karnataka 560100<br />
+                    6th Floor,Suit.No:10, Gamma Block Sigma Soft Tech Park<br />
+                   Ramagondanahalli, Whitefield, Bengaluru, Karnataka 560066<br />
                     India
                   </p>
                 </div>
@@ -168,12 +168,18 @@ const Contact: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-16 h-96 w-full rounded-lg overflow-hidden shadow-md reveal">
-          {/* This is where an embedded Google Map would go */}
-          <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-            <p className="text-gray-500">Google Map Embedded Here</p>
-          </div>
-        </div>
+    <div className="mt-16 h-96 w-full rounded-lg overflow-hidden shadow-md reveal">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d62211.44857783821!2d77.7409744!3d12.9580555!3m2!1i1024!2i768!4f13.1!2m1!1sbasel%20dynamics%20tech%20solutions!5e0!3m2!1sen!2sin!4v1747114798396!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="w-full h-full border-0"
+  ></iframe>
+</div>
+
       </div>
     </section>
   );
